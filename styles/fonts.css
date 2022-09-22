@@ -1,7 +1,7 @@
-@font-face {
+ @font-face { 
     font-family: 'Helvetica';
-    src: url('Helvetica-Oblique.woff2') format('woff2'),
-        url('Helvetica-Oblique.woff') format('woff');
+    src: url('../fonts/Helvetica-Bold.ttf') format('ttf'),
+        url('../fonts/Helvetica-BoldOblique.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('HelveticaRounded-Bold.woff2') format('woff2'),
-        url('HelveticaRounded-Bold.woff') format('woff');
+    src: url('../fonts/helvetica-compressed-5871d14b6903a.otf') format('otf'),
+        url('../fonts/helvetica-light-587ebe5a59211.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica-Light.woff2') format('woff2'),
-        url('Helvetica-Light.woff') format('woff');
+    src: url('../fonts/Helvetica-Oblique.ttf') format('ttf'),
+        url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('otf');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica.woff2') format('woff2'),
+    src: url('../fonts/Helvetica.ttf') format('ttf'),
         url('Helvetica.woff') format('woff');
     font-weight: normal;
     font-style: normal;
