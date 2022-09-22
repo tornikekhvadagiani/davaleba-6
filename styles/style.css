@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color: #0020F4;
+height: 308px;
+}
+.container h2{
+    color: #FFFFFF;
+    padding-left:  240px;
+    padding-top:  70px;
+    font-size: 32px;
+    font-family:  Helvetica;
+}
+.div-imag {
+    margin-left: 240px;
+}
+.img-block{
+    position: relative;
+    display: inline-block;
+}
+
+.img-block div {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 423px;
+    height: 125px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+
+}
+.img-block p{
+    font-family: 'Helvetica';
+    position: absolute;
+    transform: translate(0%, 50%);
+    text-align: center;
+    
+}
+.position{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 423px;
+    height: 125px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+.point1{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    position: absolute;
+    right:  240px;
+    top:  70px;
+}
+.point2{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 30%;
+    position: absolute;
+    right:  220px;
+    top:  70px;
+
+}
+.point3{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    opacity: 30%;
+    position: absolute;
+    right:  200px;
+    top:  70px;
+
+}
